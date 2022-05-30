@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>snake game</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="snake.css">
+
+</head>
+<body>
+<div class="container" id="container">
+    <div class="scoreBoard">
+        <h1>The Snake Game</h1>
+        <h4>Score: <span id="Score">0</span></h4>
+    </div>
+    <div class="gameBoard" id="gameBoard">
+        <button id="start_button" onclick="play()" class="buttonStart" >START</button>
+        <canvas id="myCanvas" class="canvas" width="810" height="640" ></canvas>
+    </div>
+</div>
+
+</body>
+<script src="snake.js"></script>
+<script src="gameOver.js"></script>
+<script src="fruit.js"></script>
+<script src="draw.js"></script>
+</html>
